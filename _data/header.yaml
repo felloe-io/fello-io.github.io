@@ -1,0 +1,5 @@
+announcement: {}
+  # below is one such announcement example
+  # text: "A line that will display at the top"
+  # link_text: "Text that will be used for link"
+  # link: "https://somelink.com"

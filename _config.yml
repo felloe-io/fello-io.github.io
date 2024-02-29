@@ -1,0 +1,18 @@
+theme: jekyll-theme-cayman
+url: https://Felloe.io
+name: Felloe.io
+permalink: /blog/:title.html
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - README.md
+  - previews/
+  - scripts/
+  - env/
+  - .github/
+  - _docx
+  - .gitignore
+
+
