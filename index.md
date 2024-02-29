@@ -9,8 +9,7 @@ layout: home
 
 <div class="row">
   <div class="col title">
-    <h1>ZeroOps Platform Infrastructure</h1>
-    <h4 style="text-align: center;">Platform Infrastructure As A Service - PIaaS</h4>
+    <h2>Felloe.io catalyzes "Platform Infrastructure" with ZeroOps.</h2>
   </div>
 </div>
 
@@ -20,7 +19,7 @@ layout: home
         <div class="landing-image-container">
             <img class="landing-image" src="images/landing/cloud.png"  />
         </div>
-        <h4 class="landing-subtitle">Production-ready<br/> scalable + secured + compliant + cost-effective</h4>
+        <h5 style="text-align: center;">A <b><i>ZeroOps</i></b> platform for deploying scalable, observable, secured, cost-effective, and compliant <b><i>Platform-infrastructure</i></b> whilst providing deeper insights on the cloud landscape with AI companionship.</h5>
     </div>
 
 
