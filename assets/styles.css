@@ -3,12 +3,12 @@ body, html {
     font-family: "Alegreya Sans", sans-serif;
     font-weight: 400;
     font-size: 1.1rem;
-    background-color: #ffffff;
-    color: #2c573e;
+    background-color: #D1DCBD;
+    color: #1D1D1C;
 }
 
 .title {
-    font-family: "Raleway", sans-serif;
+    font-family: "Gill Sans", sans-serif;
 }
 
 .title h1, .title h2 {
