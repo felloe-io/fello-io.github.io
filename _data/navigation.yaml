@@ -2,9 +2,9 @@ top:
   - text: Home
     link: "/"
     new_window: false
-  - text: About
-    link: "/about.html"
-    new_window: false
+  - text: Github
+    link: "https://github.com/felloe-io"
+    new_window: true
 
 
 bottom:
