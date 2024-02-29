@@ -15,12 +15,12 @@ layout: home
 
 <div style="width:800px; margin:0 auto;">
 
-    <div style="width:400px; margin:0 auto;">
+    <div style="width:600px; margin:0 auto;">
         <div class="landing-image-container">
             <img class="landing-image" src="images/landing/cloud.png"  />
         </div>
-        <h5 style="text-align: center;">A <b><i>ZeroOps</i></b> platform for deploying scalable, observable, secured, cost-effective, and compliant <b><i>Platform-infrastructure</i></b> whilst providing deeper insights on the cloud landscape with AI companionship.</h5>
     </div>
+<h5 style="text-align: center;"><br><br>A <b><i>ZeroOps</i></b> platform for deploying scalable, observable, secured, cost-effective, and compliant <b><i>Platform-infrastructure</i></b> whilst providing deeper insights on the cloud landscape with AI companionship.</h5>
 
 
 </div>
