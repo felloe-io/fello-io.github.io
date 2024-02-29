@@ -9,27 +9,14 @@ layout: home
 
 <div class="row">
   <div class="col title">
-    <h1>All-things Platform Infrastructure</h1>
-    <h2>Platform Infrastructure As A Service - PIaaS</h2>
+    <h1>ZeroOps Platform Infrastructure</h1>
+    <h4 style="text-align: center;">Platform Infrastructure As A Service - PIaaS</h4>
   </div>
 </div>
 
-<div class="row">
-    <div class="col-md-4 landing-item">
-        <div class="landing-image-container">
-            <img class="landing-image" src="images/landing/devops.png"  />
-        </div>
-        <h4 class="landing-subtitle">Rapidly and reliably<br/> deploy and innovate</h4>
-    </div>
+<div style="width:800px; margin:0 auto;">
 
-    <div class="col-md-4 landing-item">
-        <div class="landing-image-container">
-            <img class="landing-image" src="images/landing/startup.png"  />
-        </div>
-        <h4 class="landing-subtitle">Ship faster<br/> without worrying about infra</h4>
-    </div>
-
-    <div class="col-md-4 landing-item">
+    <div style="width:400px; margin:0 auto;">
         <div class="landing-image-container">
             <img class="landing-image" src="images/landing/cloud.png"  />
         </div>
