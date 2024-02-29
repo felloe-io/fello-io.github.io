@@ -1,0 +1,19 @@
+top:
+  - text: Home
+    link: "/"
+    new_window: false
+  - text: About
+    link: "/about.html"
+    new_window: false
+
+
+bottom:
+  - text: GitHub
+    link: "https://github.com/felloe-io/"
+    new_window: true
+  - text: LinkedIn
+    link: "https://www.linkedin.com/company/something-else-later/"
+    new_window: true
+  - text: Twitter
+    link: "https://twitter.com/something-else-later"
+    new_window: true

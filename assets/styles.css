@@ -1,0 +1,463 @@
+body, html {
+    height: 100%;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    background-color: #ffffff;
+    color: #2c573e;
+}
+
+.title {
+    font-family: "Raleway", sans-serif;
+}
+
+.title h1, .title h2 {
+    text-align: center;
+    font-weight: 500;
+}
+
+.main-cta {
+    background-color: rgba(214, 219, 251, 0.5);
+    text-align: center;
+    padding-top: 3.0rem;
+    padding-bottom: 2.5rem;
+    margin: 0 auto;
+    border: 0.5px solid rgba(0,0,0,.1);
+    border-radius: 0.5rem;
+
+    margin-bottom: 3rem;
+}
+
+.content table {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.content th {
+    border-bottom: grey 0.5px solid;
+    border-top: grey 0.5px solid;
+    padding: 0.3em;
+}
+
+.content td {
+    padding: 0.3em;
+}
+
+
+.content tr {
+    border-bottom: grey 0.5px solid;
+}
+
+@media (min-width: 768px) {
+    .main-cta {
+        padding-left: 3.5rem;
+        padding-right: 3.5rem;
+        max-width: fit-content;
+    }
+
+    .title {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    .content {
+        font-size: 110%;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 90%;
+    }
+    .title h1 {
+        font-size: 2.3rem;
+    }
+    .title h2 {
+        font-size: 1.7rem;
+    }
+    .main-cta {
+        max-width: 100%;
+    }
+    .title {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+    #mce-EMAIL {
+        max-width: 200px;
+    }
+
+    .content {
+        font-size: 130%;
+    }
+}
+
+
+.main-cta form {
+    margin: 0;
+}
+
+
+.landing-image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.landing-image {
+    font-size: 100%;
+    max-width: 50%;
+}
+
+.landing-item {
+    margin-bottom: 1rem;
+}
+
+.landing-subtitle {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.header-container-margin {
+    margin-top: 4rem;
+}
+
+.announcement {
+    background-color: #EAEDFD;
+    border-bottom: 0.5px solid rgba(0,0,0,.1);
+}
+
+.announcement .row {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.wip {
+    color: grey;
+}
+
+.header {
+    font-size: 120%;
+}
+
+.header-gap {
+    width: 1em;
+    display: inline-block;
+}
+
+@media (max-width: 768px) {
+    .header-gap {
+        width: 0.2em;
+    }
+}
+
+
+.content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    max-height: 31.25rem;
+}
+
+.content-main > p > img {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.content figure {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.content figcaption {
+    text-align: center;
+    font-size: 85%;
+    margin-top: 0.7rem;
+}
+
+@media (max-width: 960px) {
+    .img-cover {
+        max-height: 300px;
+    }
+    .book-cover {
+        margin-bottom: 1em;
+    }
+}
+
+.article-end {
+}
+
+.article-divider::before {
+    content: "...";
+}
+
+.article-divider {
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1em;
+    margin-top: 0em;
+    margin-bottom: 1em;
+}
+
+.presentation {
+    border: 1px solid #CCC;
+    border-width: 1px;
+    margin-bottom: 5px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.audio-container {
+    overflow: hidden;
+    position: relative;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.audio-container::after {
+    padding-top: 102px;
+    display: block;
+    content: '';
+}
+
+.audio-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+    .video-container {
+        width: 100%;
+    }
+    .audio-container {
+        width: 100%;
+    }
+}
+
+
+blockquote {
+    padding: 1rem;
+    background-color: #d3d3d375;
+}
+
+blockquote p:last-child {
+    margin-bottom: 0;
+}
+
+.content-head {
+    margin-bottom: 1rem;
+}
+
+.content-main h2, .content-main h3, .content-main h4 {
+    margin-top: 3rem;
+}
+
+.img-border {
+    border: #CCC solid 1px;
+}
+
+.book {
+    display: flex;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.book-cover img {
+    max-width: 130px;
+    margin-right: 10px;
+}
+
+.book-info h2, .book-info h3, .book-info h4 {
+    margin-top: 0;
+}
+
+code {
+    color: black;
+}
+
+.author-name {
+    font-size: 200%;
+}
+
+.author-name img {
+    height: 90px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.author-links {
+    font-size: 160%;
+    text-align: center;
+}
+
+.author-links a {
+    padding-left: 5px;
+    padding-right: 5px;
+    color: black;
+}
+
+img.partner {
+    max-height: 100px;
+    max-width: 300px;
+}
+
+
+.emoji-list li.podcast::before {
+    content: "🎙 ";
+}
+
+.emoji-list li.webinar::before {
+    content: "📺 ";
+}
+
+.emoji-list li.workshop::before {
+    content: "🔧 ";
+}
+
+.emoji-list li.conference::before {
+    content: "💼 ";
+}
+
+.emoji-list li.transcript::before {
+    content: "📝 ";
+}
+
+.pod-badges {
+    padding-bottom: 1em;
+    padding-top: 1em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.pod-badge-container {
+    margin: 0.5em;
+}
+
+.pod-badge {
+    height: 40px;
+}
+
+@media (max-width: 768px) {
+    .pod-badges {
+        flex-direction: column;
+    }
+}
+
+.content-book {
+    display: flex;
+}
+
+.content-book img {
+    max-height: 250px;
+    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .content-book {
+        flex-direction: column;
+    }
+
+    .content-book-image-container {
+        padding-bottom: 1em;
+        text-align: center;
+    }
+
+    .content-book img {
+        max-height: 350px;
+        margin: 0px;
+    }
+}
+
+.book-archive-thread {
+    padding-bottom: 30px;
+}
+
+.book-archive-reply {
+    padding-left: 30px;
+}
+
+.talk-wrap {
+    background: #efefef;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+.talk-speaker-img-container {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.talk-speaker-img {
+    height: 90px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.talk-details {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+.talk-details .datetime {
+    font-size: 1.2rem;
+}
+
+.grey-text {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.talk-details .toggle-abscract {
+    font-size: 0.8rem;
+}
+
+.talk-details h2 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.6rem;
+}
+
+.talk-details h3.speaker-name {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.33rem;
+}
+
+.teacher-info {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.teacher-info p {
+    margin: 0;
+}
