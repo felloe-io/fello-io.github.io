@@ -38,6 +38,4 @@ layout: home
 
 
 </div>
-
-    
 </div>
