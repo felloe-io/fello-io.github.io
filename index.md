@@ -1,6 +1,6 @@
 ---
-title: Welcome To Felloe.io
-description: "Felloe.io &ndash; All-things Platform Infrastructure"
+title: Felloe.io
+description: "Felloe.io &ndash; Your Cloud Platform Infrastructure Enabler."
 layout: home
 ---
 
