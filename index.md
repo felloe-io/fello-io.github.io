@@ -9,7 +9,7 @@ layout: home
 
 <div class="row">
   <div class="col title">
-    <h2>Felloe.io catalyzes "Platform Infrastructure" with ZeroOps.</h2>
+    <h2>Felloe catalyzes Cloud Platform Infrastructure setup with ZeroOps.</h2>
   </div>
 </div>
 
